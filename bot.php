@@ -13,7 +13,7 @@ function curl($url, $post = '', $headers = array()) {
 	}
 }
 
-function yandex($file)
+function nadya($file)
 {
 	global $api_key;
 	$lang_model = 'queries';
@@ -74,7 +74,7 @@ switch ($data['type']) {
 			else {
 				$text = '';
 
-				$yandex = yandex($link);
+				$yandex = nadya($link);
 				$xml = simplexml_load_string($yandex);
 
 				foreach($xml->variant as $variant) {
