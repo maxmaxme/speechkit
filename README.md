@@ -1,4 +1,7 @@
-# SpeechKit VK Bot
+# Бот для перевода голосовых сообщений в текст
+- https://vk.com/speechkit
+- https://www.the-village.ru/business/news/252947-bot-dlya-vkontakte-raspoznayuschiy-golosovuyu-rech
+- https://tjournal.ru/flood/38764-razrabotchik-sozdal-bota-dlya-vkontakte-raspoznayushchego-golosovuyu-rech
 
 Бот, который переводит присланные ему голосовые сообщения в текстовые.<br>
 Работает на VK Api и Yandex Speech Kit Cloud API.
